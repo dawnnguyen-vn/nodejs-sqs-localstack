@@ -21,6 +21,7 @@ export class MailService {
     region: 'us-east-1',
     endpoint: {
       url: new URL('http://localstack:4566'),
+      // url: new URL('http://localhost:4566') change localstack to localhost when run nestjs app in local machine,
     },
   });
   private queueUrl =
