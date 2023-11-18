@@ -1,4 +1,4 @@
-# Nest.js SQS Localstack
+# Node.js SQS Localstack
 ## Installation
 
 Run project:
